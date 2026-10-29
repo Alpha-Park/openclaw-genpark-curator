@@ -1,0 +1,19 @@
+{
+  "name": "openclaw-genpark-curator",
+  "version": "1.0.0",
+  "description": "OpenClaw GenPark high-throughput MinHash LSH dataset deduplication and content quality scoring engine.",
+  "tools": [
+    {
+      "name": "compute_minhash",
+      "description": "Generate MinHash signature vector for fast near-duplicate identification."
+    },
+    {
+      "name": "estimate_similarity",
+      "description": "Estimate Jaccard similarity between two MinHash signature vectors."
+    },
+    {
+      "name": "evaluate_quality",
+      "description": "Score text document quality based on lexical diversity and structural metrics."
+    }
+  ]
+}
